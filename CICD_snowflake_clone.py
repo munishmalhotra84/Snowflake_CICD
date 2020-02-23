@@ -1,6 +1,6 @@
 ## This file creates clone of production objects to enable CI/CD pipeline on top of those.
 ## Ensure you have installed snowflake connector for python
-## Also ensure you have the config file - Snowflake_CICD.config in same repoistory 
+## Also ensure you have the config file - Snowflake_CICD.config in same repository
 import snowflake.connector
 import sys
 pwd = str(sys.argv[1])
